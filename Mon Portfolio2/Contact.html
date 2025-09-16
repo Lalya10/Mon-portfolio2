@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalya Ndiaye Seydi - Community Manager</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Bootstrap JS Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+
+<body>
+    <!-- BARRE DU HAUT -->
+  <nav class="navbar navbar-expand-lg topbar shadow-sm">
+    <div class="container-fluid px-3 px-md-4">
+
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <!-- Remplacez src par votre logo -->
+        <img src="Logo blanc - 2.png" alt="Logo" class="brand-logo">
+      </a>
+
+      <!-- Bouton burger -->
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Liens -->
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link "href="index.html">Accueil</a>
+        <a class="nav-link "href="A propos.html">Apropos</a>
+        <a class="nav-link "href="Projets.html">Projets</a>
+        <a class="nav-link "href="Compétences.html">Compétences</a>
+        <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+        <!-- CTA droite -->
+        <div class="d-flex">
+          <a href="CV.jpg" class="btn cta-btn rounded-pill px-4 py-2 fw-semibold">
+            Téléchargez mon CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<body>
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title text-center">Contact</h2>
+
+    <div class="row g-4 align-items-start justify-content-center">
+      <!-- Carte à gauche -->
+      <div class="col-12 col-lg-7">
+        <div class="map-frame">
+          <!-- Option 1 : image statique (remplace le src) -->
+          <img src="img map.png" alt="Localisation à Rufisque – Sénégal">
+
+          <!-- Option 2 : Google Maps (remplace l'img ci-dessus par l'iframe)
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          -->
+        </div>
+      </div>
+
+      <!-- Formulaire à droite -->
+      <div class="col-12 col-lg-5">
+        <form class="contact-form" action="#" method="post" novalidate>
+          <label for="name" class="visually-hidden">Nom</label>
+          <input id="name" name="name" type="text" class="form-control" placeholder="Nom" required>
+
+          <label for="email" class="visually-hidden">Mail</label>
+          <input id="email" name="email" type="email" class="form-control" placeholder="Mail" required>
+
+          <label for="message" class="visually-hidden">Message</label>
+          <textarea id="message" name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+
+          <button type="submit" class="btn btn-send">Envoyez</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+
+
+<!-- ====== SECTION CONTACT / FOOTER ====== -->
+  <footer class="contact-footer position-relative text-white">
+    <div class="container py-5">
+
+      <div class="row align-items-start">
+        <!-- Logo à gauche (remplace la source) -->
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <img src="Logo blanc - 2.png" alt="3DL Lary La Lionne" class="footer-logo img-fluid">
+        </div>
+
+        <!-- Centre : bouton CV + infos + réseaux -->
+        <div class="col-12 col-md-9">
+          <!-- Bouton CV -->
+          <div class="d-flex justify-content-center">
+            <a href="CV.jpg" class="btn btn-cta px-4 py-3 rounded-4 fw-semibold shadow-sm">
+              Téléchargez mon CV
+            </a>
+          </div>
+
+          <!-- Infos de contact -->
+          <ul class="list-unstyled contact-list mt-4 mb-4 mx-auto">
+            <li>
+              <i class="bi bi-envelope-fill me-2" aria-hidden="true"></i>
+              <span>Email :</span>
+              <a href="mailto:ndiaye.lalyan@gmail.com" class="link-light text-decoration-none">
+                ndiaye.lalyan@gmail.com
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill me-2" aria-hidden="true"></i>
+              <span>Téléphone :</span>
+              <a href="tel:+221782025437" class="link-light text-decoration-none">782025437</a>
+            </li>
+            <li>
+              <i class="bi bi-geo-alt-fill me-2" aria-hidden="true"></i>
+              <span>Localisation :</span> Rufisque – Sénégal
+            </li>
+            <li class="mt-1">
+              <span class="me-1">Réseaux sociaux :</span>
+              LinkedIn | Instagram | Facebook
+            </li>
+          </ul>
+
+          <!-- Icônes réseaux -->
+          <div class="socials d-flex gap-4 justify-content-center">
+            <a class="social-btn linkedin" href="https://www.linkedin.com/in/me/recent-activity/all/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="social-btn instagram" href="https://www.instagram.com/"" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a class="social-btn facebook" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a class="social-btn tiktok" href="#" target="_blank" rel="noopener" aria-label="TikTok">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
+
+
+
+
+
+
+
+
